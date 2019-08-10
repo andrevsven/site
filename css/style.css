@@ -41,7 +41,7 @@ text-decoration-line: bold;
 	color:#0d0d0d;
 }
 .menu_link:hover {
-	color:#2ff ;
+	font-size: 22px; ;
 }
 
 .menu_item{
