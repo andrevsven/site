@@ -10,7 +10,10 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap" rel="stylesheet">
-
+	<script type="text/javascript" src="js/wow.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/animate.css" />
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 </head>
 <body>
 	<header>
@@ -19,7 +22,7 @@
 				<div class="logo"><a href="#">ВЕБ-ДИЗАЙН</a></div>
 			<nav class="navigation">
 				<ul class="menu">
-					<li class="menu_item"><a href="#" class="menu_link">ГЛАВНАЯ</a></li>
+					<li class="menu_item"><a href="#" class="menu_link" >ГЛАВНАЯ</a></li>
 					<li class="menu_item"><a href="#" class="menu_link">РАБОТЫ</a></li>
 					<li class="menu_item"><a href="nas.html" class="menu_link">О НАС</a></li>
            </ul>
@@ -27,7 +30,10 @@
 	</header>
 	<section class="banner">
 		<div class="wrapper">
-				<img src="img/im1.png"></div>
+			<div class="logotype">
+				<p class="txtm1 wow fadeInLeft" data-wow-delay="0s">SIXTIER</p><p class="txtm2 wow fadeInRight" data-wow-delay="0s" >DESIGN</p><p class="txtm3 txtm1 wow fadeInLeft" data-wow-delay="0s">STUDIO</p>
+				<img class="txts" src="img/ss.png"></div>
+			</div>
 		</div>
 	</section>
 	<section>
@@ -35,9 +41,11 @@
 			<h2>© 2019 «SIXTIER DESIGND STUDIO»</h2>
 		</div>
 	</section>
+	<script>
+		new WOW().init();
+	</script>
 </body>
-<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="js/custom.js"></script>
+
 
 </body>
 </html>
